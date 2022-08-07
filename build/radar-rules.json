@@ -649,6 +649,28 @@
       }
     ]
   },
+  "agemys.cc": {
+    "_name": "AGE动漫",
+    ".": [
+      {
+        "title": "最近更新",
+        "docs": "https://docs.rsshub.app/anime.html#age-dong-man",
+        "source": [
+          "/update",
+          "/"
+        ],
+        "target": "/agefans/update"
+      },
+      {
+        "title": "番剧详情",
+        "docs": "https://docs.rsshub.app/anime.html#age-dong-man",
+        "source": [
+          "/detail/:id"
+        ],
+        "target": "/agefans/detail/:id"
+      }
+    ]
+  },
   "aotter.net": {
     "_name": "電獺少女",
     "agirls": [
@@ -5206,6 +5228,19 @@
           "/*"
         ],
         "target": "/gov/shenzhen/zzb/:caty/:page?"
+      }
+    ]
+  },
+  "taiyuan.gov.cn": {
+    "_name": "太原市人民政府",
+    "rsj": [
+      {
+        "title": "太原市人力资源和社会保障局政府公开信息",
+        "docs": "https://docs.rsshub.app/government.html#tai-yuan-shi-ren-min-zheng-fu-tai-yuan-shi-ren-li-zi-yuan-he-she-hui-bao-zhang-ju-zheng-fu-gong-kai-xin-xi",
+        "source": [
+          "/*"
+        ],
+        "target": "/taiyuan/rsj/:caty/:page?"
       }
     ]
   },
@@ -12801,6 +12836,21 @@
         "source": [
           "/c114-listnewtopic.php"
         ]
+      }
+    ]
+  },
+  "tynu.edu.cn": {
+    "_name": "太原师范学院",
+    ".": [
+      {
+        "title": "通知公告",
+        "docs": "https://docs.rsshub.app/university.html#tai-yuan-shi-fan-xue-yuan",
+        "source": [
+          "/index/tzgg.htm",
+          "/index.htm",
+          "/"
+        ],
+        "target": "/tynu"
       }
     ]
   },
